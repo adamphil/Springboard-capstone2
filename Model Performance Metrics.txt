@@ -1,0 +1,26 @@
+Model Performance Metrics – Concrete Strength Prediction Project
+
+Linear Regression
+R²: 0.66
+MAE: 7.42
+RMSE: 9.25
+Hyperparameters:
+- No tunable hyperparameters (baseline linear model)
+
+Random Forest
+R²: 0.92
+MAE: 3.32
+RMSE: 4.52
+Hyperparameters:
+- n_estimators: 250
+- max_depth: None
+- min_samples_leaf: 1
+- min_samples_split: 2
+
+Gradient Boost
+R²: 0.93
+MAE: 2.81
+RMSE: 4.26
+Hyperparameters:
+- n_estimators: 500
+- learning_rate: 0.2
