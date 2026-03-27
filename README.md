@@ -44,13 +44,15 @@ Three regression models were evaluated:
 - Linear Regression
 - Random Forest Regressor
 - Gradient Boosting Regressor
-Hyperparameters
-Random Forest
+
+Hyperparameters:
+Random Forest:
 - n_estimators=250
 - max_depth=None
 - min_samples_leaf=1
 - min_samples_split=2
-Gradient Boost
+
+Gradient Boost:
 - n_estimators=500
 - learning_rate=0.2
 
@@ -85,14 +87,6 @@ Using scipy.optimize, the project explored mixture compositions that maximize pr
 - Optimize mix designs virtually to reduce material waste and accelerate R&D.
 - Enhance quality control by monitoring water‑cement ratio and using model predictions to flag weak batches early.
 - Support engineering proposals with data‑driven strength predictions and mixture comparisons.
-
-# 📁 Repository Structure
-├── data/                 # Raw and processed data (not included in repo)
-├── notebooks/            # Jupyter notebooks for EDA, modeling, and optimization
-├── models/               # Saved model artifacts (optional)
-├── metrics/              # Model metrics TXT file
-├── src/                  # Source code for preprocessing and modeling
-└── README.md             # Project documentation
 
 # 🚀 Future Work
 - Incorporate additional performance metrics (tensile strength, durability, thermal resistance)
